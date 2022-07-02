@@ -1,0 +1,72 @@
+html {
+	background-color: rgba(247, 112, 24, .2);
+}
+
+#image-gallery {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+
+
+figure, h1, h2, h3 {
+	text-align: center;
+	font-family: 'Oswald', Verdana, Arial, sans-serif;
+	font-weight: 400;
+}
+
+img {
+	width: 350px;
+	height: 500px;
+}
+
+#intro, #picture_description, #bio {
+	text-align: center;
+	font-family: 'Oswald', Verdana, Arial, sans-serif;
+	font-weight: 400;
+	padding: 5%;
+	margin:1%;
+}
+
+
+
+figcaption {
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    font-style: italic;
+    font-size: .75em;
+    font-weight: 400;
+}
+.about, .hobbies {
+	text-align: center;
+	text-decoration: none;
+	padding: 15px;
+	
+}
+.about a, .hobbies a {
+	
+	text-decoration: none;
+}
+
+.about a:hover, .hobbies a:hover {
+	text-decoration: underline;
+	
+}
+
+h1, h3, figcaption {
+	color: rgba(185, 63, 8, 1);
+	
+}
+
+
+
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

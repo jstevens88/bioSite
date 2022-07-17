@@ -57,11 +57,19 @@ body {
   
 }
 
+#container a {
+	color: black;
+}
+#container a:hover {
+	text-decoration: none;
+    color: black;
+}
+
 
 #image-gallery {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
+	justify-content: space-evenly;
 	gap: 10px;
 	grid-template-columns: auto auto auto;
 	margin: 3%;
@@ -89,6 +97,7 @@ img {
 #picture_description, #bio {
 	text-align: center;
 	margin:3%;
+	justify-content: space-between;
 }
 
 
@@ -101,21 +110,7 @@ figcaption {
     
 }
 
-.about, .hobbies{
-	text-align: center;
-	text-decoration: none;
-	padding: 15px;
-	
-}
-.about a, .hobbies a, .homeNav a {
-	text-decoration: none;
-}
 
-
-.about a:hover, .hobbies a:hover {
-	text-decoration: underline;
-	
-}
 
 
 #content-wrap {

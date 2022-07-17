@@ -124,16 +124,14 @@ figcaption {
 }
 
 footer {
-	position: relative;
-	width: 100%;
+	position: absolute;
 	bottom: 0;
 	height: 2.5rem;
-	margin-left: auto;
-	margin-right: 0;
-	text-align: right;
-	z-index: inherit;
+	right: 0;
 }
-
+footer p {
+	text-align: right;
+}
 
 footer a {
     text-decoration: none;
@@ -144,7 +142,6 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
-
 
 
 

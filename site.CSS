@@ -34,13 +34,14 @@ body {
 }
 
 #sidenav a {
-  padding: 12px;
+  padding: 15px 5px;
   text-decoration: none;
   font-size: 25px;
+  font-weight: bold;
   color: #818181;
   display: block;
-  border: solid;
-  border-radius: 25px;
+  border: solid ;
+  border-radius: 15px;
   margin: 2%;
 }
 
@@ -58,10 +59,12 @@ body {
 }
 
 #container a {
-	color: black;
+	color: #55165e;
+	font-weight: 500;
+	text-decoration: none;
 }
 #container a:hover {
-	text-decoration: none;
+	text-decoration: underline;
     color: black;
 }
 
@@ -128,16 +131,9 @@ footer {
 }
 footer p {
 	text-align: right;
+	font-weight: 500;
 }
 
-footer a {
-    text-decoration: none;
-    color: black;
-	
-}
 
-footer a:hover {
-    text-decoration: underline;
-}
 
 

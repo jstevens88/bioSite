@@ -73,7 +73,7 @@ figcaption {
 
 #content-wrap {
   	padding-bottom: 2.5rem;
-	z-index: -2;
+	z-index: -1;
 }
 
 footer {

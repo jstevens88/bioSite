@@ -78,9 +78,8 @@ figcaption {
 footer {
 	position: absolute;
 	bottom: 0;
-	width: 100%;
 	height: 2.5rem;
-	right: 180px;
+	right: 0;
 }
 footer p {
 	text-align: right;

@@ -124,24 +124,25 @@ figcaption {
 }
 
 footer {
-	position: absolute;
+	position: relative;
+	width: 100%;
 	bottom: 0;
 	height: 2.5rem;
-	right: 0;
+	margin-left: auto;
+	margin-right: 0;
 }
 footer p {
 	text-align: right;
 }
 
-footer a {
+.footer a {
     text-decoration: none;
     color: black;
 	
 }
 
-footer a:hover {
+.footer a:hover {
     text-decoration: underline;
 }
-
 
 

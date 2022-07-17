@@ -135,13 +135,13 @@ footer p {
 	text-align: right;
 }
 
-footer a {
+.footer a {
     text-decoration: none;
     color: black;
 	
 }
 
-footer a:hover {
+.footer a:hover {
     text-decoration: underline;
 }
 

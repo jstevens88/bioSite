@@ -124,11 +124,12 @@ figcaption {
 }
 
 footer {
-	position: absolute;
+	position: relative;
 	width: 100%;
 	bottom: 0;
 	height: 2.5rem;
-	right: 180px;
+	margin-left: auto;
+	margin-right: 0;
 }
 footer p {
 	text-align: right;

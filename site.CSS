@@ -76,10 +76,12 @@ figcaption {
 }
 
 footer {
-	position: absolute;
 	bottom: 0;
-	height: 2.5rem;
-	right: 0;
+      	margin-left: inherit;
+      	height: 100px;
+      	left: 0;
+      	right: 0;
+      	position: fixed;
 }
 footer p {
 	text-align: right;

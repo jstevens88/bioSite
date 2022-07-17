@@ -124,30 +124,27 @@ figcaption {
 }
 
 footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-	left: 0;
+	position: relative;
+	width: 100%;
+	bottom: 0;
+	height: 2.5rem;
+	margin-left: auto;
+	margin-right: 0;
+	text-align: right;
 	z-index: inherit;
 }
 
-footer p {
-    color: black;
-    font-weight: 400;
-    float: right;
-    padding-right: 10px;
-    font-style: italic;
-    font-size: .75em;
-}
 
 footer a {
     text-decoration: none;
-    
+    color: black;
+	
 }
 
 footer a:hover {
     text-decoration: underline;
 }
+
 
 
 

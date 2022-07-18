@@ -38,7 +38,7 @@ body {
   text-decoration: none;
   font-size: 25px;
   font-weight: bold;
-  color: #818181;
+  color: #55165e;
   display: block;
   border: solid ;
   border-radius: 15px;
@@ -47,7 +47,7 @@ body {
 
 
 #sidenav a:hover {
-  color: #55165e;
+  color: #818181;
 }
 
 
